@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+      <header>
+          FAÇA OS CÁLCULOS PARA SEU CHURRASCO
+      </header>
+     
+      <main>
+          <section id="calculos">
+<input type="number" id="txtAdultos" placeholder="Nº de adultos">
+<input type="number" id="txtCriancas" placeholder="Nº de crianças">
+<input type="number" id="txtDuracao" placeholder="Quantidade de horas">
+<div id="containerBtns">
+<button id="btnCalcular" onclick="calcular()">Calcular</button>
+<button id="btnLimpar" onclick="limparCampos()">Limpar</button>
+</div>
+          </section>
+          <section >
+              <span id="resultado"> Preencha os campos acima para calcular a quantidade de carnes e bebidas é necessária para o seu churrasco!</span>
+          </section>
+      </main>
+      
+      <footer>
+          Churrascômetro desenvolvido por Robert Argolo
+      </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
